@@ -18,7 +18,8 @@ h1 {
 
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
+.navbar-custom .navbar-text,
+.navbar-custom .navbarText {
     color: #5C59FF;
     font-family: 'Righteous', cursive;
 }
