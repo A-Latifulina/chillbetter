@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: #5C59FF;
+    background-image: linear-gradient(to right, #5C59FF , #AD00CA); 
+}
+
+h1 {
+    margin: 3%;
+    font-size: 2.5rem;
+    font-family: 'Righteous', cursive;
+    color: #FEFFE2;
+}
+
+.navbar-custom {
+    background-color: #D5CEFF;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #5C59FF;
+    font-family: 'Righteous', cursive;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #5C59FF;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
+}
