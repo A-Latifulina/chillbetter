@@ -12,6 +12,11 @@ h1 {
     color: #FEFFE2;
 }
 
+h2 {
+    font-family: 'Righteous', cursive;
+    color: #FEFFE2;
+}
+
 .navbar-custom {
     background-color: #D5CEFF;
 }
