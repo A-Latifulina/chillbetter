@@ -1,3 +1,10 @@
+#hero-text {
+    margin: 5rem;
+}
+
+#right-intro {
+    margin-left: 5rem;
+}
 
 #matcard {
     position: static;
@@ -5,5 +12,18 @@
 }
 
 #above-the-fold {
-    margin: 6rem;
+    margin: 3rem;
+}
+
+#spring {
+    margin-bottom: 3rem;
+}
+
+#summer {
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+#autumn {
+    margin-left: 3rem;
 }

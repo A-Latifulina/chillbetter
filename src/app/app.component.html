@@ -44,7 +44,8 @@
 </div>
 
 <!--Above the fold UI assets-->
-<div class="container">
+<div 
+  class="container">
   <div class="row">
     <div 
       class="img-fluid" 
@@ -52,16 +53,17 @@
       <img src="assets/images/bio-card.svg">      
     </div>
     
-    <div 
+    <div
+      id="right-intro" 
       class="col order-2"       
-      class="img-fluid" >
+      class="img-fluid">
       <div class="text-center">
       <img src="assets/images/venn-diagram.svg">
     </div>
 
       <div 
         class="col order-3"       
-        class="img-fluid" >
+        class="img-fluid">
         <div class="text-center">  
         <img src="assets/images/intro-text.svg">
         </div>
@@ -75,56 +77,102 @@
   id="above-the-fold">
 
 <!---Below the fold, 1st page: 2018-->
-<div 
-  class="col-2" 
-  id="timeline">
-  
-  <h2 
-    align="center">
-      2018
-  </h2>
-  <img 
-    class="mx-auto d-block"
-    src="assets/images/ellipse-red.svg" 
-    alt="red dot">
-  <br>
-  <br>
- 
-  <h2 
-  align="center">
-    2017
-  </h2>
-  <img 
-    class="mx-auto d-block"
-    src="assets/images/ellipse.svg" 
-    alt="dot">
-  <br>
+<!--Left column timeline-->
+<div
+  class="container, row"
+  id="body">
+    <div 
+      class="col-2" 
+      id="timeline">
+      
+      <h2 
+        align="center">
+          2018
+      </h2>
+      <img 
+        class="mx-auto d-block"
+        src="assets/images/ellipse-red.svg" 
+        alt="red dot">
+      <br>
+      <br>
+    
+      <h2 
+      align="center">
+        2017
+      </h2>
+      <img 
+        class="mx-auto d-block"
+        src="assets/images/ellipse.svg" 
+        alt="dot">
+      <br>
 
-    <h2 
-  align="center">
-    2016
-  </h2>
-  <img 
-    class="mx-auto d-block"
-    src="assets/images/ellipse.svg" 
-    alt="dot">
-  <br>
+        <h2 
+      align="center">
+        2016
+      </h2>
+      <img 
+        class="mx-auto d-block"
+        src="assets/images/ellipse.svg" 
+        alt="dot">
+      <br>
 
-    <h2 
-    align="center">
-      2015
-    </h2>
-     <img 
-      class="mx-auto d-block"
-      src="assets/images/arrow.svg" 
-      alt="arrow">
-  <br>
-  <br>
-  
+        <h2 
+        align="center">
+          2015
+        </h2>
+        <img 
+          class="mx-auto d-block"
+          src="assets/images/arrow.svg" 
+          alt="arrow">
+      <br>
+      <br>
+    </div>
+
+    <!--Main body: seasons-->
+    <div
+      class="col-8">
+    
+      <div>
+        <img 
+          class="mx-auto d-block"
+          src="assets/images/arrow-body-top.svg"
+          alt="arrow-body-top">
+      </div>
+
+      
+      <div
+        class="text-center">
+        <img
+          id="spring"
+          src="assets/images/box.svg"
+          alt="spring">
+        <img
+          id="summer"
+          src="assets/images/box-summer.svg"
+          alt="summer">
+      </div>
+
+      <div
+        class="text-center">
+        <img
+          id="winter"
+          src="assets/images/box-winter.svg"
+          alt="winter">
+        <img
+          id="autumn"
+          src="assets/images/box-autumn.svg"
+          alt="autumn">
+      </div>
+    </div>
+
+    <div
+      class="col-1">
+        <img 
+          src="assets/images/arrow-body-right.svg" 
+          alt="arrow-body-right">
+    </div>
+
+
 </div>
-
-
-
-
 </body>
 </html>
