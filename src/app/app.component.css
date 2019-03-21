@@ -15,15 +15,61 @@
     margin: 3rem;
 }
 
+.col-8 {
+    padding: 0;
+    margin: 0;
+}
+
+.text-center {
+    padding: 0;
+    margin: 0;
+}
+
 #spring {
     margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 #summer {
     margin-bottom: 3rem;
     margin-left: 3rem;
+    margin-top: 2rem;
 }
 
 #autumn {
     margin-left: 3rem;
+    margin-bottom: 0;
+}
+
+#winter {
+    margin-bottom: 0;
+}
+
+#arrow-body-right{
+    padding: 0;
+}
+
+#bio {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+#bio-box {
+    margin: 0;
+    padding: 0;
+}
+
+#why-box {
+    margin: 3rem;
+}
+
+#contact-box {
+    margin: 3rem;
+
+}
+
+.diamond-gif {
+    margin-bottom: 1rem;
+    border-radius: 100px;
+    display: block;
 }

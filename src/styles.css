@@ -1,7 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles */
 
 body {
-    background-color: #5C59FF;
+    background-color: black;
     background-image: linear-gradient(to right, #5C59FF , #AD00CA); 
 }
 
@@ -19,6 +19,7 @@ h2 {
 
 .navbar-custom {
     background-color: #D5CEFF;
+    margin: 0;
 }
 
 /* change the brand and text color */
